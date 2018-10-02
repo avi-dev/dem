@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/reletiive">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/white"
+        app:titleTextColor="#fff"
+        android:alpha="0.8"
+        android:elevation="10dp"
+        android:textAlignment="center"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <ss.com.bannerslider.views.BannerSlider
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/bannerSlider"
+        app:interval="3000"
+        app:loopSlides="true"
+        app:defaultIndicators="round_square"
+        app:animateIndicators="true"
+        app:indicatorSize="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ss.com.bannerslider.views.BannerSlider>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bannerSlider"
+        android:layout_marginTop="5dp"
+        android:text="@string/career_guide"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text"
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

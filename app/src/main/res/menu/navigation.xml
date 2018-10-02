@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/career"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="Career" />
+
+    <item
+        android:id="@+id/colleges"
+        android:icon="@drawable/ic_school_black_24dp"
+        android:title="Colleges" />
+
+    <item
+        android:id="@+id/jobs"
+        android:icon="@drawable/ic_transfer_within_a_station_black_24dp"
+        android:title="Jobs" />
+
+    <item
+        android:id="@+id/exams"
+        android:icon="@drawable/ic_note_add_black_24dp"
+        android:title="Exams" />
+
+</menu>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "68226520612",
+    "firebase_url": "https://career-d88e1.firebaseio.com",
+    "project_id": "career-d88e1",
+    "storage_bucket": "career-d88e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68226520612:android:59e7f1563aa78802",
+        "android_client_info": {
+          "package_name": "apps.avi.careershala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68226520612-nmlf4gqs6h15u8h5sjj4hrqgnejqq135.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC-XZrGIJgwAwhNSwZ1thPFxS1fsvBI3I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
